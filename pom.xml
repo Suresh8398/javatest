@@ -22,7 +22,7 @@
     			<groupId>org.codehaus.mojo</groupId>
     			<artifactId>sonar-maven-plugin</artifactId>
     			<version>7.6</version>
-			</plugin>
+		</plugin>
 
 	</dependencies>
 	
