@@ -18,11 +18,7 @@
 			<scope>test</scope>
 		</dependency>
 		
-		<plugin>
-    			<groupId>org.codehaus.mojo</groupId>
-    			<artifactId>sonar-maven-plugin</artifactId>
-    			<version>7.6</version>
-		</plugin>
+
 
 	</dependencies>
 	
