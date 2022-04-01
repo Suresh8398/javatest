@@ -1,6 +1,6 @@
 variable "aws_region" {
   description = "The AWS region to create things in."
-  default     = "us-west-2"
+  default     = "us-east-1"
 }
 
 variable "key_name" {
@@ -15,7 +15,7 @@ variable "instance_type" {
 
 variable "security_groups" {
   description = "Name of security group"
-  default     = "sg-0ef1cae0cde59d757"
+  default     = "sg-0c831a19e5d39c35e"
 }
 
 variable "tag_name" {
@@ -25,10 +25,10 @@ variable "tag_name" {
 
 variable "ami_id" {
   description = "AMI for Ubuntu Ec2 instance"
-  default     = "ami-00ee4df451840fa9d"
+  default     = "ami-0ac59804e0c10a625"
 }
 
 variable "subnet_id" {
   description = "vpc security group"
-  default     = "subnet-06faf682a0bb63ec3"
+  default     = "subnet-0764ebfa212f95616"
 }
